@@ -32,13 +32,7 @@ function Homepage() {
   
   const activities = [];
 
- /* function getActivities () { countriesAll.map((c) => {
-  if (activities.includes(c.activities.name.map((n) =>{n}))) {
-    activities.push(c.activities.name)
-  }
-  })}
-  
-  console.log(activities);*/
+ 
 
   return (
     

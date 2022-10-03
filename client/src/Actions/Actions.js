@@ -65,12 +65,7 @@ export  function getCountryByName(name) {
         payload
       }
     }
-   /* export function filterByContinent (payload){
-      return {
-        type:"FILTER",
-        payload
-       
-      }*/
+   
      export function filterByContinent (payload){
       return {
         type:"FILTER_CONTINENT",

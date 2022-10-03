@@ -79,17 +79,7 @@ export default function rootReducers(state= initialState, action) {
       ...state, display : sortedPopulation
      }
 
-    /* case "FILTER" :
-      const allCountries = state.countriesAll;
-      let filteredContinent = action.payload.continents === "All"? allCountries : allCountries.filter((c) => c.continent === action.payload.continents)
-      let filteredActivities = action.payload.activity === "All"? filteredContinent :
-         filteredContinent.filter((c) =>{return  c.activities.find((a) => {return a.name === action.payload.activity})  })
-       if (filteredActivities.length) 
-         return {
-        ...state, display : filteredActivities}
-        else{
-           return{...state, display: filteredContinent}
-      };*/
+    
 
 
      case "FILTER_CONTINENT" :
@@ -157,58 +147,12 @@ export default function rootReducers(state= initialState, action) {
       case "GET_ACTIVITIES" : return{
           ...state, activities : action.payload
         }; 
-  /* case "POST_ACTIVITY" hace falta? probar sin
-   hacer filtrados y ordenamientos
-
-     */ 
+ 
 
 default : return {...state}
 }
    
   
 }
-/*case "FILTER_CONTINENT" :
-      const allActivity = state.activityFilter;
-      const allCountries = state.countriesAll;
-      let filteredContinent = action.payload === "All"? allCountries : allCountries.filter((c) => c.continent === action.payload)
-      const nomatch = [1,2]
-      if (allActivity.length === 0){
-      
-      return {
-        ...state, display : filteredContinent , continentFilter : filteredContinent
-      }}
 
-      else{
-      const bothFilters =  allActivity.filter((c) => c.continent === action.payload)
-      console.log(bothFilters)
-
-      if (bothFilters.length === 0){
-        return{...state, display :filteredContinent, continentFilter : filteredContinent}
-      }
-      else{
-        return{...state, display : bothFilters, continentFilter : filteredContinent
-      }
-      }}
-      
-      case "FILTER_ACTIVITIES" :
-        const allCountry = state.countriesAll
-        const everyCountry  = state.display;
-        const everyActivity = allCountry.filter((c) =>{return  c.activities.find((a) => {return a.name === action.payload})  })
-        const lastContinent = state.continentFilter;
-        
-        const filteredActivities = everyCountry.filter((c) =>{return  c.activities.find((a) => {return a.name === action.payload})  })
-        if(everyCountry.length < 4  && filteredActivities.length === 0){
-          return{
-            ...state, display : lastContinent, activityFilter : everyActivity
-          }
-        }
-
-        if(action.payload === "All" || filteredActivities.length === 0 ){
-          return {
-            ...state, activityFilter : everyActivity
-          }}
-          else{
-            return{
-              ...state, display : filteredActivities, activityFilter : everyActivity
-            }}*/
         

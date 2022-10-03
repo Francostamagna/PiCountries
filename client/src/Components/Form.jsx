@@ -61,7 +61,7 @@ function Form() {
  
  
  
- const difficulty = [1,2,3,4,5]
+ 
 
  const seasons = ["Summer", "Winter","Autumn", "Spring" ];
 
@@ -188,37 +188,19 @@ console.log(errors);
            </div>
            <div className='formSeasonContainer'>
            <label>SEASON</label>
+                   
           <div>
-           <label><input 
+          {seasons.map((s) => ( <label><input 
            type="checkbox"
-           name="Summer"
-           value="Summer"
+           key={s}
+           name={s}
+           value={s}
            onChange={(e) => handleCheck(e)}
-           />Summer</label>
-
-          <label><input
-           type="checkbox"
-           name="Spring"
-           value="Spring"
-           onChange={(e) => handleCheck(e)}
-           />Spring</label> 
-
-          <label><input
-           type="checkbox"
-           name="Autumn"
-           value="Autumn"
-           onChange={(e) => handleCheck(e)}
-           />Autumn</label>
-
-          <label><input
-           type="checkbox"
-           name="Winter"
-           value="Winter"
-           onChange={(e) => handleCheck(e)}
-           />Winter</label>
-
+           />{s}</label>))}
+             
          </div>   
            </div>
+
            <div className='formDurationContainer'>
            <label>DURATION</label>
            <div><input  type='range' min={1} max={7} name={'duration'} value={input.duration} 
@@ -241,7 +223,7 @@ console.log(errors);
            <label>COUNTRY</label>
            <div > <select className='formCountrySelect' name='country' value={input.country} onChange={(e) => {handleSelectCountry(e)}}>
            <option className='noShow'>-- Select --</option>
-           {allcountriesNames.map((c) => ( <option value={c}>{c}</option> ))  } 
+           {allcountriesNames.map((c) => ( <option key={c} value={c}>{c}</option> ))  } 
                  </select> 
             </div>
           
@@ -249,8 +231,8 @@ console.log(errors);
 
            <div className='showCountries'>
              {input.country.map((c) =>
-               <div className='itemCountry'>
-                <p>{c}</p>
+               <div  className='itemCountry'>
+                <p key={c} >{c}</p>
                 <input type='button' value='X' onClick={() => {handleDelete(c)}}/>
                 </div>
              )}

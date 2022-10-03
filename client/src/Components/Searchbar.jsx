@@ -71,20 +71,7 @@ let handleSortPopulation = (e) => {
   let handleFilterContinent =   (e) => {
     
     dispatch(filterByContinent(e.target.value))}
-  /* todos[e.target.name] = e.target.value
-
-   console.log(todos);
-   
-   dispatch(filterByContinent(todos))*/
-   /*   setFilteredActions({...filteredActions, [e.target.name]: e.target.value,})
-    
-     
-
-     dispatch(filterByContinent(filteredActions)) ;
-    
-   
-    
-      ;*/
+  
        
   
 
@@ -96,7 +83,7 @@ let handleSortPopulation = (e) => {
 
   let handleFilterActivities = (e) => {
    
-   // setFilteredActions({[e.target.name]: e.target.value})
+   
     
     dispatch(filterByActivities(e.target.value))}
 
@@ -118,7 +105,7 @@ let handleSortPopulation = (e) => {
         <option value='asc'> A-Z </option>
         <option value='desc'> Z-A </option>
       </select>
-      <select disabled={disable} onChange={e => handleSortPopulation(e)}>
+      <select id='Sortpopulation' disabled={disable} onChange={e => handleSortPopulation(e)}>
         <option value="None"> None </option>
         <option value='asc'> Min-Max </option>
         <option value='desc'> Max-Min </option>
@@ -153,13 +140,13 @@ let handleSortPopulation = (e) => {
       <select  name='continents' onChange ={e => handleFilterContinent(e)}>
       
        {continent.map((c) => 
-        <option value={c}> {c} </option>)}
+        <option key={c} value={c}> {c} </option>)}
       </select>
 
       <select  name='activity' onChange={e => handleFilterActivities(e)}>
       <option value="All"> All </option>
        {activities.map((c) => 
-        <option value={c.name}> {c.name} </option>)}
+        <option key={c.name} value={c.name}> {c.name} </option>)}
       </select>
       </div>
      </div>
