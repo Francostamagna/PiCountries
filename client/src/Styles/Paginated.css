@@ -1,0 +1,30 @@
+.paginatedMain{
+    display: flex;
+    flex-direction: row;
+    height: 4vh;
+    width: 100vw;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(17, 39, 211) 0%, rgb(13, 25, 147) 35%, rgb(6, 12, 99) 100%);
+    bottom: 0;
+}
+
+.paginated{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4vh;
+    width: 60vw;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    
+    
+}
+
+.paginated li{
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(251, 251, 251); 
+    font-size: larger;
+}

@@ -1,0 +1,67 @@
+.landingDiv{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+   
+}
+.landingFilter{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    background-color: rgba(14, 15, 16, 0.9);
+    filter: blur(100px);
+    justify-content: center;
+}
+
+
+
+
+.landingp{
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 25px;
+    text-shadow: 0 0 50px rgb(32, 67, 171);
+    rotate:-4deg;
+    font-size: 150px;
+    color: white;
+    height: 25vh;
+    left: 480px;
+    top:0px
+    
+}
+
+.landingImage{
+    justify-content: center;
+    
+   
+}
+
+.landingaButton{
+   position: relative;
+   position: absolute;
+   bottom: 10%;
+   
+
+    
+}
+.landingButton {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:x-large;
+    letter-spacing: 3px;
+    text-shadow: 0 0 150px rgb(15, 37, 101);
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    border-color: rgb(131, 142, 190);
+    color: rgb(251, 251, 252);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(57, 129, 142) 100%);
+    cursor: pointer;
+}
+

@@ -1,0 +1,72 @@
+
+
+.generalContainer{
+    width: 100vw;
+    height: 100vh;
+}
+.displayLoading{
+    background-color: rgb(254, 253, 253);
+    position:absolute;
+    height: 60vh;
+    width: 30vw;
+    top:10vh;
+    left: 33vw;
+    animation: rotation 15s infinite linear;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 25px;
+    text-shadow: 0 0 50px rgb(32, 67, 171); }
+    
+   
+    @keyframes rotation { 
+         to {
+            transform: rotate(359deg);
+          }
+
+        }
+        
+.loadingText{
+    position: absolute;
+    top:70vh;
+    left: 31vw;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: rgb(15, 15, 16);
+    text-shadow: 0 0 10px rgb(26, 70, 180);
+}
+    
+    
+    
+
+
+.displayContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(254, 253, 253);
+    
+}
+.cardsContainer{
+    height: 75vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    justify-content: space-around;
+    align-content: space-around;
+   
+
+}
+
+.paginatedContainer{
+    height: 4vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.7vh;
+}
+
+.noMatches{
+    font-family:  'Permanent Marker', cursive;
+    font-size: 5vh;
+}

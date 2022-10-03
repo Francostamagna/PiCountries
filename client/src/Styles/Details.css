@@ -1,0 +1,238 @@
+.loadingTextDetails{
+    position: absolute;
+    top:70vh;
+    left: 33vw;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: rgb(15, 15, 16);
+    text-shadow: 0 0 10px rgb(26, 70, 180);
+}
+
+
+
+.generalDetails{
+    height: 100vh;
+    width: 100vw;
+    
+   
+    
+    
+}
+
+#blueNav{
+    height: 4vh;
+    width: 100vw;
+    background:linear-gradient(90deg, rgb(17, 39, 211) 0%, rgb(13, 25, 147) 35%, rgb(6, 12, 99) 100%);
+}
+
+
+.detailCardContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around
+}
+
+.detailUpperSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    
+    
+}
+
+.detailUpperSection h1{
+    margin-left: 2vw;
+    border-bottom: 2px solid grey;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 10vh;
+    
+    
+}
+
+.imagedetailContainer{
+    
+    width: 12vw;
+    height: 20vh;
+    border: 1px solid rgb(92, 91, 91);
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+
+
+
+.imagedetailContainer img  {
+    width: 12vw;
+    height: 20vh;
+    
+    
+    
+    border-radius: 0%;
+
+}
+
+
+
+.detailMediumSection{
+    display:flex;
+    flex-direction: row;
+   justify-content: space-around;
+   margin-top: -5vh;
+  
+    
+}
+
+
+.generalDetailCardData{
+    display: flex;
+    flex-direction: column;
+   background-color: gray;
+    border-radius: 15px;
+    
+}
+
+.generalDetailCardData h1 {
+    border-bottom: 3px solid rgb(242, 241, 241);
+    font-family:  'Permanent Marker', cursive;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.detailCardData{
+    height: 45vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+   
+   
+}
+
+
+
+.detailDataHeaders{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    font-family:  'Permanent Marker', cursive;
+    font-size: x-large;
+    
+    
+}
+.detailDataHeaders h4 {
+    height: 0.4vh;
+   
+}
+
+.detailDataInfo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vw;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: x-large;
+   
+    
+    
+   
+}
+.detailDataInfo h4{
+    height: 0.4vh;
+    text-align: end;
+}
+
+.activitiesDetailCard{
+    height: 40vh;
+    width: 40vw;
+    background-color: grey;
+    border-radius: 15px;
+    
+}
+
+.activitiesDetailCard h1{
+    border-bottom: 3px solid rgb(228, 225, 225) ;
+    width: 30vw;
+    margin-left: 1vw;
+    font-family:  'Permanent Marker', cursive;
+   
+}
+
+.detailActivityGeneral{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 15px;
+}
+
+.detailActivityGeneral h3{
+    font-family:  'Reem Kufi Ink', sans-serif;
+    margin-left: 1vw;
+    font-size: larger;
+   
+}
+
+.activitiesMapSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4vh;
+    
+    
+}
+
+.detailActivityContainer{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+    margin-left: 1vw;
+}
+
+
+.detailActivityHeader{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.detailActivityInfo p{
+    text-align: end;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    margin-right: 1vw;
+    font-size: large;
+}
+
+
+
+.detailsBackButtonDiv{
+    background: linear-gradient(90deg, rgb(17, 39, 211) 0%, rgb(13, 25, 147) 35%, rgb(6, 12, 99) 100%);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.detailsBackButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:large;
+    letter-spacing: 2px;
+    text-shadow: 0 0 150px rgb(15, 37, 101);
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;
+    border-color: rgb(131, 142, 190);
+    color: rgb(12, 12, 12);
+   
+    cursor: pointer;
+    margin-left: 70vw;
+    
+}

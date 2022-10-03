@@ -1,0 +1,210 @@
+.search{
+    position: absolute;
+    top: 15px;
+}
+
+.searchInputs{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    justify-self: flex-start;
+}
+
+.searchInputs input{
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 15px;
+    height: 22px;
+    width: 300px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: rgb(13, 13, 13);
+}
+.searchIcon{
+    height: 60px;
+    width: 50;
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+    color: white;
+
+}
+input :focus {
+    outline: none;
+}
+
+.searchIcon svg {
+    font-size: 25px;
+    
+}
+
+.searchResult{
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    background-color:rgb(13, 25, 147);
+    overflow: hidden;
+    overflow-y: auto;
+    box-shadow: rgba(0,0,0,0.35)0px, 5px, 15px;
+    
+}
+.dataItem{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(254, 252, 252);
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.dataItem p {
+    margin-left: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(180, 178, 178);
+    cursor: pointer;
+}
+
+#clearButton{
+    cursor: pointer;
+}
+div select{
+    height: 40px;
+    width: 170px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:large;
+    text-shadow: 0 0 150px rgb(248, 249, 250);
+    letter-spacing: 8px;
+    text-align: center;
+    border-radius: 10px;
+    border-left-color: rgb(244, 245, 248);
+    border-right-color: rgb(250, 249, 249);
+    color: rgb(9, 9, 10);
+    background: linear-gradient(90deg, rgb(254, 254, 254) 0%, rgb(243, 243, 243) 35%, rgb(218, 218, 218) 100%);
+}
+.navBar{
+    
+   
+    background: linear-gradient(90deg, rgb(17, 39, 211) 0%, rgb(13, 25, 147) 35%, rgb(6, 12, 99) 100%);
+    height: 16vh;
+}
+
+.selects{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    top: 70px;
+    
+
+}
+.selectsSort{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-right: 600px;
+}
+
+.selectsFilter{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.selectsSortText{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -80px;
+    height: 90px;
+    align-items: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+}
+.orderSortTypes{
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+    width: 400px;
+    justify-content: space-between;
+    
+    color: white;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+.orderSort{
+    height: 60px;
+    width: 130px;
+    font-size: x-large;
+    
+    margin-left: 30px;
+}
+
+.reloadButton{
+    position: absolute;
+    top: -50px;
+    left: 950px;
+    height: 30px;
+}
+.reloadButtonStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:large;
+    letter-spacing: 2px;
+    text-shadow: 0 0 150px rgb(15, 37, 101);
+    border-radius: 10px;
+    height: 3.3vh;
+    width: 14vw;
+    border-color: rgb(131, 142, 190);
+    color: rgb(12, 12, 12);
+    background: linear-gradient(90deg, rgb(254, 254, 254) 0%, rgb(243, 243, 243) 35%, rgb(218, 218, 218) 100%);
+    cursor: pointer;
+}
+
+.activityButton{
+    position: absolute;
+    top: -50px;
+    left: 650px;
+    height: 30px;
+}
+
+.activityButtonStyle{
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:large;
+    letter-spacing: 2px;
+    text-shadow: 0 0 150px rgb(15, 37, 101);
+    border-radius: 10px;
+    height: 3.3vh;
+    width: 14vw;
+    border-color: rgb(131, 142, 190);
+    color: rgb(12, 12, 12);
+    background: linear-gradient(90deg, rgb(254, 254, 254) 0%, rgb(243, 243, 243) 35%, rgb(218, 218, 218) 100%);
+    cursor: pointer;
+}

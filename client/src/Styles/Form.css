@@ -1,0 +1,265 @@
+.imageBackground{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.backgroundFilter{
+    top: 0%;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgb(233, 233, 237) 0%, rgba(9,9,121,1) 45%, rgb(236, 239, 240) 85%);
+   opacity: 0.5;
+  
+}
+
+.allForm{
+    top: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    
+}
+
+.formImage{
+    position: relative;
+    height: 99vh;
+    width: 99vw;
+    top: 1vh;
+    left:1vw;
+    opacity: 0.5;
+}
+
+.titleForm{
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+    font-family:  'Reem Kufi Ink', sans-serif;
+    font-size: 5vh;
+    margin-top: 4vh;
+    color: rgb(253, 252, 252);
+    text-decoration: underline ;
+    background: linear-gradient(90deg, rgb(17, 39, 211) 0%, rgb(13, 25, 147) 35%, rgb(6, 12, 99) 100%);
+    opacity: 0.9;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    text-decoration:dashed ;
+}
+
+.titleForm div{
+    text-shadow: 0 0 50px rgb(251, 252, 253);
+}
+
+.formContainer{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+   background-color: rgb(253, 252, 252);
+   width: 40vw;
+   height: 62vh;
+   justify-content: space-around;
+   border: 3px solid blue;
+   border-radius: 15px;
+   opacity: 0.85;
+   
+   
+    
+}
+
+.form{
+    
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    border-right:2px solid gray; 
+    background-color:solid rgb(255, 255, 255);
+    
+    
+    
+}
+.formButtonContainer{
+    background: linear-gradient(90deg, rgb(17, 39, 211) 0%, rgb(13, 25, 147) 35%, rgb(6, 12, 99) 100%);
+    height: 4vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5vh;
+    opacity: 0.9;
+}
+
+
+.formBackButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:large;
+    letter-spacing: 2px;
+    text-shadow: 0 0 150px rgb(15, 37, 101);
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;
+    border-color: rgb(131, 142, 190);
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.showCountries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 9vh;
+    width: 20vw;
+    background-color: rgb(159, 181, 228);
+    opacity: 0.5;
+
+
+}
+
+.itemCountry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+    height: 2vh;
+    border: 1px solid grey;
+    border-left: none;
+}
+
+.formNameContainer{
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    width: 20vw;
+    
+}
+
+.formSeasonContainer{
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    width: 20vw;
+    border-top: 3px solid gray;
+    margin-top: 3px;
+}
+
+.formSeasonContainer div {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.formDurationContainer{
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    width: 20vw;
+    border-top: 3px solid gray;
+    margin-top: 3px;
+}
+
+.formDifficultyContainer{
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    border-top: 3px solid gray;
+    margin-top: 3px;
+    width: 20vw;
+}
+.formCountryContainer{
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    width: 20vw;
+    border-top: 3px solid gray;
+    margin-top: 3px;
+}
+
+.formCountrySelect{
+ width: 15vw;
+ height: 3vh;
+ border: 1px solid rgb(73, 73, 75);
+}
+
+.noShow {
+    display:none;
+    font-size: 1px;
+}
+
+.formCreateButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size:large;
+    letter-spacing: 2px;
+    text-shadow: 0 0 150px rgb(15, 37, 101);
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;
+    border-color: rgb(131, 142, 190);
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    
+}
+
+.formErrors{
+    width: 10vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  
+    opacity: 0.5;
+}
+
+.formErrors div {
+    margin-top: 40px;
+    height: 4vh;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#errorCountry{
+    margin-bottom: 100px;
+}
+
+.spanOk{
+    color: blue;
+}
