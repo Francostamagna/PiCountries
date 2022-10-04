@@ -13,7 +13,7 @@ function Searchbar({placeholder, data, setCurrentPage, setOrder}) {
 
  const [filteredData, setFilteredData] = useState([]);
  const [wordEntered, setWordEntered] = useState("");
- const [filteredActions, setFilteredActions] =  useState({continents : "All", activity : "All"})
+ 
 
  
  

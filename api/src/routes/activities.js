@@ -17,13 +17,7 @@ activities.get("/", async (req,res) => {
     }
 
     
-}
-
-
-)
-
-
-
+})
 
 
 activities.post("/", async (req, res) => {
