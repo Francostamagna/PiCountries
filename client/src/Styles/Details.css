@@ -11,16 +11,29 @@
 .href{
     width: 0px;
 }
+.formImage{
+    background-color: rgb(105, 108, 110);
+    z-index: -10;
 
+}
+
+#backgroundFilter{
+    background-color: rgb(26, 27, 28);
+    z-index: 20;
+    opacity: 90%;
+    filter: blur(4px);
+    
+}
 
 .generalDetails{
     height: 100vh;
     width: 100vw;
     
-   
+  
     
     
 }
+
 
 #blueNav{
     height: 4vh;
@@ -49,9 +62,12 @@
 
 .detailUpperSection h1{
     margin-left: 2vw;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid rgb(252, 251, 251);
     font-family: 'Reem Kufi Ink', sans-serif;
     font-size: 10vh;
+    text-shadow: 2px 2px  rgb(9, 9, 9);
+    color:white
+
     
     
 }
@@ -95,13 +111,17 @@
 .generalDetailCardData{
     display: flex;
     flex-direction: column;
-   background-color: rgb(236, 235, 235);
+   background-color: white;
     border-radius: 15px;
+    opacity: 90%;
     
 }
 
+
+
+
 .generalDetailCardData h1 {
-    border-bottom: 3px solid rgb(242, 241, 241);
+    border-bottom: 3px solid rgb(210, 208, 208);
     font-family:  'Permanent Marker', cursive;
     width: 30vw;
     margin-left: 1vw;
@@ -155,13 +175,16 @@
 .activitiesDetailCard{
     height: 40vh;
     width: 40vw;
-    background-color: rgb(236, 235, 235);
+    background-color:white;
     border-radius: 15px;
-    
+    opacity: 90%;
 }
 
+
+
+
 .activitiesDetailCard h1{
-    border-bottom: 3px solid rgb(253, 252, 252) ;
+    border-bottom: 3px solid rgb(215, 215, 215) ; ;
     width: 30vw;
     margin-left: 1vw;
     font-family:  'Permanent Marker', cursive;
@@ -172,7 +195,7 @@
     display: flex;
     flex-direction: column;
     width: 15vw;
-    border: 1px solid rgb(252, 251, 251);
+    border: 1px solid rgb(119, 119, 119);
     border-radius: 15px;
 }
 

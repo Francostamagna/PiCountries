@@ -4,6 +4,7 @@ import {useSelector, useDispatch} from 'react-redux'
 import {useParams, Link} from 'react-router-dom';
 import {getCountryById, emptyDisplay} from '../Actions/Actions'
 import loadingPic from '../Images/loadingRotate.png'
+import worldlight from '../Images/worldlight.jpg'
 import '../Styles/Details.css'
 
 
@@ -30,6 +31,11 @@ function Details() {
     <img className='displayLoading' src={loadingPic}/>
     <p className='loadingTextDetails'>Loading Details...</p>
    </div> :
+
+<div className='imageBackground'>
+
+<div id='backgroundFilter'><img  className='formImage' src={worldlight} alt='Not found'></img></div>
+<div className='allForm'>
 
     <div className='detailCardContainer'>
      <div id='blueNav'></div>
@@ -106,7 +112,8 @@ function Details() {
         <Link to={'/countries'} className="hrefbutton"> <button className='detailsBackButton' onClick={() => handleBack()}> Back </button></Link>
         </div>
     </div>
-     
+    </div>
+    </div>
 
 
     } 
