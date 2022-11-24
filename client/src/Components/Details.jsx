@@ -103,7 +103,7 @@ function Details() {
        </div>
       </div> 
         <div className='detailsBackButtonDiv'>
-        <Link to={'/countries'}> <button className='detailsBackButton' onClick={() => handleBack()}> Back </button></Link>
+        <Link to={'/countries'} className="hrefbutton"> <button className='detailsBackButton' onClick={() => handleBack()}> Back </button></Link>
         </div>
     </div>
      

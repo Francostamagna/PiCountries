@@ -20,6 +20,7 @@ activities.get("/", async (req,res) => {
 })
 
 
+
 activities.post("/", async (req, res) => {
 
     const { name, difficulty, duration, season, country } = req.body;

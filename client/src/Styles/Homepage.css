@@ -7,10 +7,10 @@
 .displayLoading{
     background-color: rgb(254, 253, 253);
     position:absolute;
-    height: 60vh;
-    width: 30vw;
-    top:10vh;
-    left: 33vw;
+    height: 40vh;
+    width: 20vw;
+    top:20vh;
+    left: 38vw;
     animation: rotation 15s infinite linear;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 25px;
@@ -26,10 +26,10 @@
         
 .loadingText{
     position: absolute;
-    top:70vh;
-    left: 31vw;
+    top:60vh;
+    left: 34vw;
     font-family: 'Permanent Marker', cursive;
-    font-size: 70px;
+    font-size: 55px;
     color: rgb(15, 15, 16);
     text-shadow: 0 0 10px rgb(26, 70, 180);
 }

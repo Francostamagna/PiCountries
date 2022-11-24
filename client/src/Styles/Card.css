@@ -46,6 +46,14 @@
     border-radius: 0%;
     
 }
+
+.href{
+    width: 0px;
+    margin-right: 160px;
+}
+
+
+
 .cardButton{
     display: flex;
     align-items: center;

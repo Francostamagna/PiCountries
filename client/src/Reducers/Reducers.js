@@ -138,11 +138,7 @@ export default function rootReducers(state= initialState, action) {
             }
         
         }
-   
-
-
-
-         
+            
 
       case "GET_ACTIVITIES" : return{
           ...state, activities : action.payload

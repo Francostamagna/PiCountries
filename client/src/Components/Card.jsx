@@ -18,7 +18,7 @@ const dispatch = useDispatch();
          <h1 className='cardName'> {name}</h1>
          <h1 className='continentName'> {continent} </h1>
          
-         <Link to={`/countries/details/${id}`}>
+         <Link to={`/countries/details/${id}`} className="href">
           <button className='cardButton' onClick={() => dispatch(emptyDetails())}>Details</button></Link>
          
     </div>

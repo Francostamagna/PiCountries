@@ -5,11 +5,13 @@ import Landing from './Components/Landing';
 import Homepage from './Components/Homepage';
 import Details from './Components/Details';
 import Form from './Components/Form';
+import Activities from './Components/Activities';
 
 function App() {
   return (
     <BrowserRouter>
       <React.Fragment>
+      <Route path ={'/activities'} component = {Activities}/>
       <Route path={'/countries/activities'} component = {Form}/>
       <Route path={'/countries/details/:id'} component = {Details}/>
       <Route exact path={'/countries'} component = {Homepage}/>
