@@ -33,9 +33,13 @@
     color: white;
     height: 25vh;
     left: 480px;
-    top:0px
+    top:0px;
+   
+      }
+      
+     
     
-}
+
 
 .landingImage{
     justify-content: center;
