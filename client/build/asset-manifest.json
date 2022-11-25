@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.227a7163.chunk.css",
+    "main.js": "/static/js/main.53020031.chunk.js",
+    "main.js.map": "/static/js/main.53020031.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.af71729d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.af71729d.js.map",
+    "static/js/2.48da49e2.chunk.js": "/static/js/2.48da49e2.chunk.js",
+    "static/js/2.48da49e2.chunk.js.map": "/static/js/2.48da49e2.chunk.js.map",
+    "static/js/3.97746f9d.chunk.js": "/static/js/3.97746f9d.chunk.js",
+    "static/js/3.97746f9d.chunk.js.map": "/static/js/3.97746f9d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.227a7163.chunk.css.map": "/static/css/main.227a7163.chunk.css.map",
+    "static/js/2.48da49e2.chunk.js.LICENSE.txt": "/static/js/2.48da49e2.chunk.js.LICENSE.txt",
+    "static/media/loadingRotate.6330e65b.png": "/static/media/loadingRotate.6330e65b.png",
+    "static/media/world.e77fbbdb.jpg": "/static/media/world.e77fbbdb.jpg",
+    "static/media/worldlight.e8fbad12.jpg": "/static/media/worldlight.e8fbad12.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af71729d.js",
+    "static/js/2.48da49e2.chunk.js",
+    "static/css/main.227a7163.chunk.css",
+    "static/js/main.53020031.chunk.js"
+  ]
+}
